@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { v4 as uuidv4 } from 'uuid'
 
-const API_URL = import.meta.env.VITE_API_URL || '/api'
+const API_URL = 'https://expender-tracker-backend-1.onrender.com'
 const COMMON_CATEGORIES = ['Food', 'Transport', 'Shopping', 'Utilities', 'Entertainment', 'Health', 'Other']
 
 function ExpenseForm({ onAdd, categories }) {

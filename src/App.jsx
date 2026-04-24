@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import ExpenseForm from './components/ExpenseForm'
 import ExpenseList from './components/ExpenseList'
 
-const API_URL = import.meta.env.VITE_API_URL || '/api'
+const API_URL = 'https://expender-tracker-backend-1.onrender.com'
 
 function App() {
   const [expenses, setExpenses] = useState([])
